@@ -1,0 +1,2 @@
+compile_command: pnpm run build
+run_command: HOST=0.0.0.0 PORT=8080 pnpm run dev
