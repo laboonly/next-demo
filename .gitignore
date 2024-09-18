@@ -35,3 +35,12 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Clacky specific
+.1024.nix
+.env.local
+.env.production
+.env.development
+*.local
+*.log
+*.tmp
