@@ -3,3 +3,4 @@ fileChangeLogs:
   - .next
   - next-env.d.ts
   - .gitignore
+  - README.md
