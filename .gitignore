@@ -49,3 +49,6 @@ clacky/
 *.clacky
 logs/
 temp/
+.git/
+.1024nix/
+*.1024.nix
