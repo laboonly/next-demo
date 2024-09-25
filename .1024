@@ -1,2 +1,2 @@
 compile_command: pnpm run build
-run_command: yarn dev
+run_command: npm run dev
