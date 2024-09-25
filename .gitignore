@@ -44,3 +44,8 @@ next-env.d.ts
 *.local
 *.log
 *.tmp
+# Additional Clacky-specific entries
+clacky/
+*.clacky
+logs/
+temp/
