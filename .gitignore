@@ -44,3 +44,22 @@ next-env.d.ts
 *.local
 *.log
 *.tmp
+# Additional Clacky-specific entries
+clacky/
+*.clacky
+logs/
+temp/
+.git/
+.1024nix/
+*.1024.nix
+# Clacky specific ignores
+clacky_config.yaml
+clacky_cache/
+.cache/
+*.clackyignore
+*.bak
+*.swp
+*.swo
+*.swn
+*.pid
+*.seed
