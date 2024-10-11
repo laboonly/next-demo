@@ -63,3 +63,25 @@ clacky_cache/
 *.swn
 *.pid
 *.seed
+# Additional rules to exclude environment, system, dependency, and language-specific files
+# Clacky Env Files
+*.env
+*.env.* 
+# System and Version Control Files
+*.DS_Store
+*.swp
+*.swo
+*.swn
+# Dependencies and Build Artifacts
+build/
+dist/
+*.tgz
+# Logs, Temporary, and Backup Files
+*.log
+*.tmp
+*.bak
+*.pid
+*.seed
+*.backup
+*.temp
+.cache/
