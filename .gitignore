@@ -65,6 +65,76 @@ clacky_cache/
 *.seed
 # Additional rules to exclude environment, system, dependency, and language-specific files
 # Clacky Env Files
+.1024.nix
+.1024nix
+.1024feature-file
+.1024feature*
+*.dll
+.paas-unit-*
+.breakpoints
+core.*
+coverage/
+
+# System and Version Control Files
+.git/
+.DS_Store
+Thumbs.db
+.nfs*
+
+# Dependencies and Build Artifacts
+node_modules/
+.pnpm-store/
+dist/
+env/
+venv/
+vendor/
+cython_debug/
+
+# Logs, Temporary, and Backup Files
+*.log
+*.tmp
+*.bak
+*.old
+*.pid
+*.seed
+*.pid.lock
+
+# Environment and Configuration Files
+.env
+*.env.local
+*.env.development.local
+*.env.test.local
+*.env.production.local
+
+# Language and Framework Specific Files
+
+## JavaScript/TypeScript
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+*.tsbuildinfo
+
+## Python
+**/__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.env
+
+## Go
+*.exe
+*.out
+*.test
+
+## Database Files
+*.sqlite
+*.db
+*.sql
+*.sql-journal
+# Additional rules to exclude environment, system, dependency, and language-specific files
+# Clacky Env Files
 *.env
 *.env.* 
 # System and Version Control Files
