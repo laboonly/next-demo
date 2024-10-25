@@ -1,64 +1,19 @@
-# dependencies
-/node_modules
-/.pnp
-.pnp.js
-.yarn/install-state.gz
+# Dependencies and Build Artifacts
+node_modules/
+.pnpm-store/
+dist/
 
-# testing
-/coverage
-
-# next.js
-/.next/
-/out/
-
-# production
-/build
-
-# misc
-.DS_Store
-*.pem
-
-# debug
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-
-# local env files
-.env*.local
-# .env
-
-# vercel
-.vercel
-
-# typescript
-*.tsbuildinfo
-next-env.d.ts
-
-# Clacky specific
-.1024.nix
-.env.local
-.env.production
-.env.development
-*.local
+# Logs, Temporary, and Backup Files
 *.log
 *.tmp
-clacky/
-*.clacky
-logs/
-temp/
-.git/
-.1024nix/
-*.1024.nix
-clacky_config.yaml
-clacky_cache/
-.cache/
-*.clackyignore
 *.bak
-*.swp
-*.swo
-*.swn
-*.pid
-*.seed
+
+# Miscellaneous
+.cache/
+
+
+
+
 
 # Clacky Env Files
 .1024.nix
@@ -81,10 +36,6 @@ Thumbs.db
 node_modules/
 .pnpm-store/
 dist/
-env/
-venv/
-vendor/
-cython_debug/
 
 # Logs, Temporary, and Backup Files
 *.log
@@ -101,12 +52,8 @@ cython_debug/
 *.env.development.local
 *.env.test.local
 *.env.production.local
-*.tmp.*
-*.temp.*
 
-# Language and Framework Specific Files
-
-## JavaScript/TypeScript
+# JavaScript/TypeScript
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
