@@ -4,3 +4,5 @@ fileChangeLogs:
   - next-env.d.ts
   - .gitignore
   - '.1024'
+  - src/app/components/TableComponent.tsx
+  - src/app/pages/DemoTablePage.tsx
