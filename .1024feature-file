@@ -4,3 +4,4 @@ fileChangeLogs:
   - next-env.d.ts
   - .gitignore
   - '.1024'
+  - .env
