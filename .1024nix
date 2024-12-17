@@ -4,13 +4,18 @@ pkgs.mkShell {
         alias ll="ls -l"
         export PS1="\[\e[0m\]\w\[\e[0m\]#\[\e[0m\] "
         export LANG=en_US.UTF-8
+        corepack prepare pnpm@9.14.3 --activate
+        corepack prepare yarn@1.22.22 --activate
+        export npm_config_prefix="$HOME/app/.config/npm/node_global"
+        export PATH=$HOME/app/node_modules/.bin:$npm_config_prefix/bin:$PATH
     '';
     packages = [
         # env
-        pkgs.nodePackages.pnpm
-        pkgs.nodePackages.yarn
+        pkgs.nodejs_20
+        pkgs.corepack_20
+        pkgs.nodePackages.typescript
         pkgs.nodePackages.browser-sync
-        pkgs.nodePackages.vscode-langservers-extracted
+        # lsp
         pkgs.nodePackages.typescript-language-server
         pkgs.glibcLocales
     ];

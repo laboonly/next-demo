@@ -7,10 +7,13 @@ dist/
 *.log
 *.tmp
 *.bak
+*.old
+*.pid
+*.seed
+*.pid.lock
 
 # Miscellaneous
 .cache/
-
 
 
 
@@ -32,20 +35,6 @@ coverage/
 Thumbs.db
 .nfs*
 
-# Dependencies and Build Artifacts
-node_modules/
-.pnpm-store/
-dist/
-
-# Logs, Temporary, and Backup Files
-*.log
-*.tmp
-*.bak
-*.old
-*.pid
-*.seed
-*.pid.lock
-
 # Environment and Configuration Files
 .env
 *.env.local
@@ -66,7 +55,6 @@ yarn-error.log*
 *.pyo
 *.pyd
 .Python
-*.env
 
 ## Go
 *.exe
@@ -79,29 +67,24 @@ yarn-error.log*
 *.sql
 *.sql-journal
 
-*.env
-*.env.*
-
 # System and Version Control Files
-*.DS_Store
 *.swp
 *.swo
 *.swn
 
 # Dependencies and Build Artifacts
 build/
-dist/
 *.tgz
 
 # Logs, Temporary, and Backup Files
-*.log
-*.tmp
-*.bak
-*.pid
-*.seed
 *.backup
 *.temp
 .cache/
+
+# Lock and Local Files
+*.local
+*.lock
+*.log.*
 
 *.local
 *.lock
