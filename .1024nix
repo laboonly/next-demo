@@ -1,22 +1,11 @@
+# .1024nix is the NIX configuration file for the Clacky development environment, used to establish an isolated development environment with core dependencies and shellHook for configuring environment variables, aliases, and other shell configurations.
+# After modifying the file, you can execute the command 'nix-shell .1024nix' in the Terminal to apply the changes.
+# For more information, please refer to the documentation: https://docs.clacky.ai/clacky-workspace/configure
 { pkgs ? import <nixpkgs> {} }:
 pkgs.mkShell {
     shellHook = ''
         alias ll="ls -l"
-        export PS1="\[\e[0m\]\w\[\e[0m\]#\[\e[0m\] "
+        export PS1="\[[0m\]\w\[[0m\]#\[[0m\] "
         export LANG=en_US.UTF-8
-        corepack prepare pnpm@9.14.3 --activate
-        corepack prepare yarn@1.22.22 --activate
-        export npm_config_prefix="$HOME/app/.config/npm/node_global"
-        export PATH=$HOME/app/node_modules/.bin:$npm_config_prefix/bin:$PATH
     '';
-    packages = [
-        # env
-        pkgs.nodejs_20
-        pkgs.corepack_20
-        pkgs.nodePackages.typescript
-        pkgs.nodePackages.browser-sync
-        # lsp
-        pkgs.nodePackages.typescript-language-server
-        pkgs.glibcLocales
-    ];
 }
