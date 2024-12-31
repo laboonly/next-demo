@@ -15,9 +15,6 @@ dist/
 # Miscellaneous
 .cache/
 
-
-
-
 # Clacky Env Files
 .1024.nix
 .1024nix
@@ -49,19 +46,19 @@ yarn-error.log*
 .pnpm-debug.log*
 *.tsbuildinfo
 
-## Python
+# Python
 **/__pycache__/
 *.py[cod]
 *.pyo
 *.pyd
 .Python
 
-## Go
+# Go
 *.exe
 *.out
 *.test
 
-## Database Files
+# Database Files
 *.sqlite
 *.db
 *.sql
@@ -86,6 +83,6 @@ build/
 *.lock
 *.log.*
 
-*.local
-*.lock
-*.log.*
+.1024*
+!.1024
+.breakpoints
