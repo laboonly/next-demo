@@ -1,2 +1,4 @@
+# Compile command before running the project
 compile_command: pnpm run build
+# Command to run when "Run" button clicked
 run_command: yarn dev

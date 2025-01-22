@@ -5,3 +5,4 @@ fileChangeLogs:
   - .gitignore
   - '.1024'
   - .env
+  - README.md
