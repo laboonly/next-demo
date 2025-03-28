@@ -6,3 +6,8 @@ fileChangeLogs:
   - '.1024'
   - .env
   - README.md
+  - src/data/cities.ts
+  - src/app/pages/cities.tsx
+  - src/app/page.tsx
+  - src/app/pages/about.tsx
+  - src/app/pages/demo.tsx
