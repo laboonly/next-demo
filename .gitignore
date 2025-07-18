@@ -46,6 +46,12 @@ yarn-error.log*
 .pnpm-debug.log*
 *.tsbuildinfo
 
+# Next.js
+.next/
+out/
+.vercel
+.swc/
+
 # Python
 **/__pycache__/
 *.py[cod]

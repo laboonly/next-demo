@@ -1,4 +1,9 @@
 # Command to run when "Run" button clicked
-run_command: yarn dev
+run_command: yarn devs a d
 # Command to install or update dependencies, will execute each time a new thread created to ensure dependencies up-to-date
 dependency_command: yarn install
+# Linter configuration for code quality checks
+linter_config:
+  - config_path: '.eslintrc.json'
+    type: 'eslint'
+    language: 'typescript'
